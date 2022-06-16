@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 170, 72, 0.95);
+  border-radius: 30px;
+  height: 400px;
+  width: 30%;
+  margin: 0 auto;
+  position: relative;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .container {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(176, 218, 193, 0.5);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 95%;
+  }
+}
+
+.input {
+  font-size: 15px;
+  border: 1px solid rgb(235, 236, 237);
+  outline: none;
+  appearance: none;
+  border-radius: 10px;
+  padding: 8px 16px;
+  margin: 10px 0;
+  color: rgb(36, 41, 46);
+  font-weight: 600;
+  width: 300px;
+  height: 35px;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.input:focus {
+  box-shadow: rgb(255 255 255) 0px 0px 0px 2px, rgb(0 170 72) 0px 0px 0px 4px;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+
+.btnSet {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  width: 100px;
+  font-size: 15px;
+  padding: 10px 0;
+  margin: 20px;
+  border-radius: 32px;
+  outline: 0px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nextBtn {
+  border: 0px;
+  background: rgb(0, 170, 72);
+  color: rgb(255, 255, 255);
+}
+
+.nextBtn:hover {
+  color: rgb(0, 170, 72);
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 170, 72);
+  outline: 1px;
+}
+
+.prevBtn {
+  border: 1px solid rgb(0, 170, 72);
+  color: rgb(0, 170, 72);
+  background: rgb(255, 255, 255);
+}

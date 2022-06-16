@@ -1,38 +1,20 @@
 .App {
+  margin: 0;
+  padding: 0;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1253%26quot%3b)' fill='none'%3e%3ccircle r='22.4' cx='967.53' cy='79.24' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='24.435' cx='1290.69' cy='144.28' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='47.68' cx='712.03' cy='191.49' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='51.63' cx='612.92' cy='312.76' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='21.075' cx='511.75' cy='192.21' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='16.025' cx='633.7' cy='251.81' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='40.22' cx='429.55' cy='542.21' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='49.165' cx='862.85' cy='85.76' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='35.09' cx='717.57' cy='363.96' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='42.735' cx='73.45' cy='212' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='33.12' cx='411.78' cy='172.99' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='45.96' cx='31.41' cy='225.92' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='45.485' cx='249.86' cy='365.37' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='50.995' cx='1387.42' cy='189.73' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3ccircle r='25.215' cx='25.68' cy='381.85' fill='rgba(0%2c 170%2c 72%2c 0.45)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1253'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  user-select: none;
+}
+
+.stepper{
+  padding: 30px 0;
+}
+
+.heading{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: rgb(0, 171, 72);
+  font-size: 40px;
+  font-weight: 800;
 }
